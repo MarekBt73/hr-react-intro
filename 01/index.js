@@ -1,17 +1,11 @@
 'use strict'
 
-const Paragraph = () =>{
-    return React.createElement(
-    'p',
-    {
-     id:"ferst-pargraph",
-     className: 'ferrst-paragraph'
+const Paragraph = () => {
+    return <p className = 'paragrafh'
+    id = "paragraph" > Lorem ipsum dolor sit amet consectetur adipisicing elit.Vero enim ex, ea quas placeat laborum at quasi repellat quisquam reprehenderit a tenetur quos repudiandae accusantium minus obcaecati veniam amet alias. </p>
 
-    },
-   ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam, inventore mollitia maxime voluptates porro eaque! Officiis, eos dolor numquam natus aliquid iusto fugit suscipit saepe necessitatibus veritatis nostrum nihil!',
-    )
 }
 
 const addContainer = document.getElementById('app');
 
-ReactDOM.render(Paragraph(),addContainer);
+ReactDOM.render(Paragraph(), addContainer);
