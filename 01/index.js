@@ -3,7 +3,11 @@
 const Paragraph = () =>{
     return React.createElement(
     'p',
-    {},
+    {
+     id:"ferst-pargraph",
+     className: 'ferrst-paragraph'
+
+    },
    ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam, inventore mollitia maxime voluptates porro eaque! Officiis, eos dolor numquam natus aliquid iusto fugit suscipit saepe necessitatibus veritatis nostrum nihil!',
     )
 }
