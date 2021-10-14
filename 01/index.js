@@ -8,4 +8,4 @@ const Paragraph = () => {
 
 const addContainer = document.getElementById('app');
 
-ReactDOM.render(Paragraph(), addContainer);
+ReactDOM.render(<Paragraph/>, addContainer);
